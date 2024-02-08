@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mide el éxito de tus campañas publicitarias en línea con nuestra calculadora de ROAS. Obtén una visión clara de la efectividad y rentabilidad de tus estrategias publicitarias">
+    <title>Mide la efectividad de tus campañas | Calculadora ROAS</title>
+</head>
+<body>
+  <main>
+    <section>
+      <h1 class="h1__title">Aprende cómo calcular el retorno de tus campañas Publicitarias</h1>
+      <p class="paragraph">¿Te preguntas si tus campañas de publicidad son rentables?</p>
+      <p class="paragraph">Uno de los principales problemas que enfrentan las empresas a la hora de hacer publicidad es que no conocen cuanto deberían invertir y qué resultados esperar para saber si sus campañas estan siendo rentables o no.</p>
+      <p class="paragraph">En este artículo, te guiaremos a través de los pasos para determinar la inversión adecuada en publicidad y los resultados mínimos que deberías esperar de tus campañas para asegurarte de que estan siendo rentables para tu empresa.</p>
+      <p class="paragraph">Te has preguntado alguna vez: ¿Cuántas ventas necesito generar? ¿Qué inversión es la adecuada? ¿Cómo saber si mis anuncios están funcionando? <strong>La respuesta está en el ROAS.</strong></p>
+  
+      <h2 class="h2__title">¿Qué es el ROAS y cómo se calcula?</h2>
+      <p class="paragraph">El Retorno de la inversión en publicidad <strong>(Return on Ad Spend - ROAS en inglés)</strong>, es una métrica que nos ayuda a medir la efectividad y rentabilidad de nuestras campañas publicitarias. Nos permite determinar si estamos obteniendo un retorno positivo de nuestra inversión publicitaria al comparar los ingresos generados por las campañas con su costo total.</p>
+      <p class="paragraph">El ROAS se calcula dividiendo los ingresos generados por una campaña publicitaria entre el costo de la inversión en esa campaña. </p>
+      <p class="paragraph">La formula es: <strong>Ingresos por Publicidad / Gastos Publicitarios = ROAS</strong></p>
+      <p class="paragraph">Expliquemoslo con un ejemplo: Imaginemos que nuestra empresa invierte $5.000 USD en una campaña publicitaria y al finalizar la campaña genera ingresos por ventas de $15,000 USD, nuestro ROAS sería de 15,000/5,000 = 3. Esto significa que por cada $1 USD invertido, nuestra campaña generó $3 USD en ventas. </p>
+     <!--ROAS calculator-->
+      <h3 class="h3__title">Calcula tu ROAS</h3>
+      <div class="calculator__container">
+        <div class="calculator__sales">
+          
+          <input type="number" id="sales" class="calculator__input" placeholder=" " title="Ingresa el valor de las ventas generadas por tus campañas publicitarias">
+          <label for="sales" class="calculator__label">Ingresos Publicitarios</label>
+          <span class="calculator__icon">$</span>
+        </div>
+        <div class="calculator__budget">
+            <input type="number" id="budget" class="calculator__input" placeholder=" " title="Ingresa el costos de tus campañas publicitarias">
+            <label for="budget" class="calculator__label">Gastos Publicitarios</label>
+            <span class="calculator__icon">$</span>
+        </div>
+        <p class="calculator__roas">ROAS:  <span class="calculator__result">0</span></p>
+
+      </div>
+    </section>
+    <!--ROAS Objetivo-->
+    <section>
+      <h2 class="h2__title">¿Cuál debería ser mi ROAS objetivo?</h2>
+      <p class="paragraph">Ya tenemos como calcular nuestro ROAS, pero todavia no sabemos que ROAS necesita nuestra empresa para ser rentable. Para esto vamos necesitar conocer cual es nuestro Margen de beneficio y hacer la siguiente pregunta <strong>¿Cuántas veces nuestro Margen de beneficio llega a 100?</strong> Ese va a ser tu ROAS objetivo</p>
+      <p class="paragraph">El <strong>Margen de beneficio</strong> de nuestra empresa lo vamos a poder calcular así: <strong>(Ingresos netos - Costos) / Ingresos netos</strong>.</p>
+      <p class="paragraph"><strong>LOS COSTOS:</strong> deben incluir los <i>VARIABLES</i>, todo lo que aumentará con cada venta adicional (COGS, envíos, transacciones, etc) y los <i>FIJOS</i>, aquellos gastos en los que una empresa incurre y que no varían en relación con la cantidad de producción o ventas (Empleados, Logística, Herramientas, etc ).</p>
+      <h3 class="h3__title">Para entender esto mejor veamos un ejemplo: </h3>
+      <p class="paragraph"><u>CASO:</u> Imaginemos que una empresa de comercio electrónico tiene un  promedio del 20%. Esto significa que conserva un 20% de los ingresos mientras que el resto se destina a el pago de los costos del negocio.</p>
+      <p class="paragraph"><u>Que sigue:</u> Ese 20% de <strong>margen de beneficio</strong> ¿cuantas veces esta en el 100? 5 veces, por lo tanto nuestro ROAS Objetivo debería ser por lo menos de 5 para estar en equilibrio. Esto significa que esta empresa necesita generar 5 veces más ingresos que lo invertido en publicidad para poder alcanzar el punto de equilibrio.</p>
+      <p class="paragraph">Cuando esta empresa gasta $10 en inversión publicitaria y alcanza el punto de equilibrio (ROAS = 5) significa que genero $50 en ingresos, de los cuales le quedaran $10 que corresponden al 20% de $50.</p>
+      <p class="paragraph">Están alcanzando el punto de equilibrio con $10 gastados y $10 ganados.</p>
+      <!--Calculadora roas objetivo-->
+      <h3 class="h3__title">Calcula tu ROAS Objetivo</h3>
+      <p class="paragraph">Muchas veces puede que no tengamos muy claro cual es nuestro <strong>Margen de beneficio</strong> para esto vamos a utilizar una herramienta que nos va a permitir identificar el ROAS Objetivo de nuestras campañas en unos simples pasos:</p>
+      <h4>Paso 1:</h4>
+      <p class="paragraph">Ingresamos los márgenes que nos cuesta en promedio cada producto (costos de producción, costos de envío, etc). Acá vamos a obtener el porcentaje (%) de nuestros costos variables totales y el margen bruto del producto, que representa el porcentaje (%) que nos queda luego de los costos variables.</p>
+      <h4>Paso 2:</h4>
+      <p class="paragraph">Ingresamos nuestros costos fijos ($). Estos gastos no varían en función de la producción o venta y suelen estar asociados a empleados, contratistas, proveedores, etc. En esta etapa, calculamos nuestros costos fijos totales.</p>
+      <h4>Paso 3:</h4>
+      <p class="paragraph">Ingresamos diferentes inversiones publicitarias y ROAS, luego hacemos clic en calcular. Esto nos va a dar ingreso neto, lo importante acá es encontrar esa combinación entre ROAS e Inversión publicitaría que nos retorne un ingreso neto positivo, lo que significa que mientras más cerca de 0 nos de el resultado más cerca del punto de equilibrio vamos a estar.</p>
+    </section>
+    <section>
+      <div class="costos">
+        <article class="variables__container">
+            <div class="variables__row">
+              <h2 class="variables__title">Costos Variables (%)</h2>
+            </div>
+            <div class="variables__row">
+              <label class="variables__item" for="produccion">Costo de producción (COGS) </label>
+                <input type="number" id="produccion" class="variables__input item-editable-v" placeholder="%" min="0" max="100" name="produccion"> 
+            </div>
+           <div class="variables__row">
+              <label class="variables__item" for="envio">Costo de envío</label>
+                <input type="number"  id="envio" class="variables__input item-editable-v" placeholder="%" min="0" max="100" name="envio"> 
+            </div>
+          <div class="variables__row">
+              <label class="variables__item" for="transacciones" >Costo de transacciones </label>
+                <input type="number" id="transacciones" class="variables__input item-editable-v" placeholder="%" min="0" max="100" name="transacciones"> 
+            </div>
+          <div class="variables__row">
+              <label class="variables__item" for="devoluciones">Costo de devoluciones</label>
+                <input type="number" id="devoluciones" class="variables__input item-editable-v" placeholder="%" min="0" max="100" name="devoluciones"> 
+            </div>
+          <div class="variables__row">
+              <label class="variables__item" for="otros">Otros</label>
+                <input type="number" id="otros" class="variables__input item-editable-v" placeholder="%" min="0" max="100" name="otros"> 
+            </div>
+          <div class="variables__row">
+              <p class="variables__item">Costos Variables Totales</p>
+              <div class="costos__container">
+                <p class="item-cvt">0%</p>
+              </div>
+            </div>
+          <div class="variables__row">
+             <p class="variables__item">% Margen de Bruto</p> 
+            <div class="costos__container">
+                <p class="item-mb">0%</p> 
+            </div>
+        </article>
+          <!--Costos Fijos-->
+          <article class="fijos__container">
+                <div class="fijos__row">
+                  <h2 class="fijos__title">Costos fijos ($)</h2>
+                </div>
+                <div class="fijos__row">
+                  <label class="fijos__item" for="empleados">Empleados</label>
+                    <input type="number" id="empleados" class="fijos__input item-editable-f" placeholder="$" name="empleados"> 
+                </div>
+               <div class="fijos__row">
+                  <label class="fijos__item" for="contratistas">Contratistas</label>
+                    <input type="number"  id="contratistas" class="fijos__input item-editable-f" placeholder="$" name="contratistas"> 
+                </div>
+              <div class="fijos__row">
+                  <label class="fijos__item" for="proveedores" >Proveedores</label>
+                    <input type="number" id="proveedores" class="fijos__input item-editable-f" placeholder="$"  name="proveedores"> 
+                </div>
+              <div class="fijos__row">
+                  <label class="fijos__item" for="herramientas">Herramientas</label>
+                    <input type="number" id="herramientas" class="fijos__input item-editable-f" placeholder="$" name="herramientas"> 
+                </div>
+              <div class="fijos__row">
+                  <label class="fijos__item" for="logistica">Logística</label>
+                    <input type="number" id="logistica" class="fijos__input item-editable-f" placeholder="$" name="logistica"> 
+                </div>
+                <div class="fijos__row">
+                  <label class="fijos__item" for="otrosFijo">Otros</label>
+                    <input type="number" id="otrosFijo" class="fijos__input item-editable-f" placeholder="$" name="otrosFijo"> 
+                </div>
+              <div class="fijos__row">
+                  <p class="fijos__item">Costos fijos Totales</p>
+                  <div class="costos__container">
+                    <p class="item-cft">$0</p>
+                  </div>
+                </div>
+            </article>
+          <!--ROAS-->
+      </div>
+      <article class="graphic">
+        <div class="graphic__container">
+          <div class="roas__row">
+            <input type="number" class="roas__items item-editable-roas" placeholder="ROAS">
+            <input type="number" class="roas__items item-editable-roas" placeholder="ROAS">
+            <input type="number" class="roas__items item-editable-roas" placeholder="ROAS">
+            <input type="number" class="roas__items item-editable-roas" placeholder="ROAS">
+            <input type="number" class="roas__items item-editable-roas" placeholder="ROAS">
+          </div>
+          <div class="budget__column">
+            <input type="number" class="budget__items item-editable-budget" placeholder="Budget">
+            <input type="number" class="budget__items item-editable-budget" placeholder="Budget">
+            <input type="number" class="budget__items item-editable-budget" placeholder="Budget">
+            <input type="number" class="budget__items item-editable-budget" placeholder="Budget">
+            <input type="number" class="budget__items item-editable-budget" placeholder="Budget">
+          </div>
+          <div class="result__container">
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+            <p class="result__items"></p>
+           </div>
+        </div>
+       <button class="graphic_button" onclick="calcular()">Calcular</button>
+      </article> 
+    </section>
+  </main>
+    <script src="./app.js"></script>
+</body>
+</html>
